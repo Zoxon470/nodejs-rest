@@ -6,7 +6,7 @@ import routes from './routes/index.js';
 
 const app = express();
 
-mongoose.connect('mongodb://localhost');
+mongoose.connect('mongodb://mongo:27017');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());

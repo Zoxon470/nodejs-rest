@@ -1,4 +1,3 @@
-import mongoose from 'mongoose';
 import note from '../models/notebookModels.js';
 
 exports.getNote = (req, res) => {
